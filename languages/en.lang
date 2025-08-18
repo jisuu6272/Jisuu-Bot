@@ -1,4 +1,4 @@
-If you want to move down the line, please use \n. e.g: tina\nSA HU.
+If you want to move down the line, please use \n. e.g: tina\nJishu.
 
 After changed, you have to restart the bot to use.
 
@@ -24,7 +24,7 @@ Main.finishLoadModule=Installed %1 module commands and %2 module events successf
 Main.foundPathAppstate=Sahuhstate successfully
 Main.notFoundPathAppstate=Error can't find appstate file maybe file is malformed!
 Main.checkListGban=Checking global ban list...
-Main.banDevice=Your device have been banned from SA HU, please contact to facebook m.me/61575698041722 to know more information or asking for unban key, if you already have unban key, please fill it below.
+Main.banDevice=Your device have been banned from Jishu, please contact to facebook m.me/61575698041722 to know more information or asking for unban key, if you already have unban key, please fill it below.
 Main.keyNotSameFormat=Wrong format, code must contain 6 number.
 Main.codeInputExpired=Your code is wrong or out of date.
 Main.unbanDeviceSuccess=Your device are unban now, please restart to use.
@@ -36,24 +36,24 @@ Main.refreshListen=Refreshed handleListener...
 Main.successConnectDatabase=Connected to database successfully!
 Main.failConnectDatabase=Failed to connect to database, error: %1
 
-Shahadat specific texts
+Jishu specific texts
 
-shahadat.foundPathAppstate=Found appstate.json path successfully
-shahadat.notFoundPathAppstate=Appstate.json not found or invalid!
-shahadat.errorFormat=Invalid module format detected!
-shahadat.nameExist=Module name already exists in the system!
-shahadat.notFoundLanguage=No language support found for module: %1
-shahadat.notFoundPackage=Required package %1 not found for module %2, installing now...
-shahadat.cantInstallPackage=Failed to install package %1 for module %2. Error: %3
-shahadat.loadedPackage=All dependencies loaded successfully for module %1
-shahadat.loadedConfig=Configuration loaded successfully for module %1
-shahadat.cantOnload=Failed to initialize module %1. Error: %2
-shahadat.successLoadModule=Module %1 loaded successfully
-shahadat.failLoadModule=Failed to load module %1. Error: %2
-shahadat.finishLoadModule=Successfully loaded %1 commands and %2 events
-shahadat.handleListenError=Listener encountered an error: %1
-shahadat.warningSourceCode=WARNING: Source code structure modified unexpectedly!
-shahadat.successConnectDatabase=Database connection established successfully
+Jishu.foundPathAppstate=Found appstate.json path successfully
+Jishu.notFoundPathAppstate=Appstate.json not found or invalid!
+Jishu.errorFormat=Invalid module format detected!
+Jishu.nameExist=Module name already exists in the system!
+Jishu.notFoundLanguage=No language support found for module: %1
+Jishu.notFoundPackage=Required package %1 not found for module %2, installing now...
+Jishu.cantInstallPackage=Failed to install package %1 for module %2. Error: %3
+Jishu.loadedPackage=All dependencies loaded successfully for module %1
+Jishu.loadedConfig=Configuration loaded successfully for module %1
+Jishu.cantOnload=Failed to initialize module %1. Error: %2
+Jishu.successLoadModule=Module %1 loaded successfully
+Jishu.failLoadModule=Failed to load module %1. Error: %2
+Jishu.finishLoadModule=Successfully loaded %1 commands and %2 events
+Jishu.handleListenError=Listener encountered an error: %1
+Jishu.warningSourceCode=WARNING: Source code structure modified unexpectedly!
+Jishu.successConnectDatabase=Database connection established successfully
 
 includes/listen.js
 
@@ -82,13 +82,13 @@ users.needObject=Have to be an Object
 includes/handle/handleCommand.js
 
 handleCommand.userBanned=বক্স এ বেশি আবলামি করার কারণে তুমাকে ব্যান করা হয়েছে!!🚫
-handleCommand.threadBanned=Group Has Been Banned..!⛔️\nPlease Contact Owner SHAHADAT SAHU For Unban ⚠️
+handleCommand.threadBanned=Group Has Been Banned..!⛔️\nPlease Contact Owner Jishu   For Unban ⚠️
 handleCommand.commandNotExist=Assalamu Alaikum 🌸\n\nOops! The command you entered isn't valid ❌\n\nDid you mean ➤ %1 ?\n\nPlease check and try again 🕊️
 handleCommand.commandThreadBanned=Your thread is unable to use command "%1"
 handleCommand.commandUserBanned=You are unable to use command "%1"
 handleCommand.threadNotAllowNSFW=This Commnd Only use Andmin
 handleCommand.cantGetInfoThread=Can't get your thread's info, error: %1
-handleCommand.permssionNotEnough="%1 You Have No Permission! 🚫\nThis Command is Only For Boss Shahadat 😘\n\nছাগল! এই কমান্ডটা তোর জন্য না!\n👑 এইটা শুধুমাত্র আমার বস SHAHADAT SAHU ব্যবহার করতে পারবে!\nতুই এডমিন লেভেলে নাই বুঝলি? 😂
+handleCommand.permssionNotEnough="%1 You Have No Permission! 🚫\nThis Command is Only For Boss Jishu 😘\n\nছাগল! এই কমান্ডটা তোর জন্য না!\n👑 এইটা শুধুমাত্র আমার বস Jishu   ব্যবহার করতে পারবে!\nতুই এডমিন লেভেলে নাই বুঝলি? 😂
 handleCommand.cantSetMessageReaction=Having some unexpected error at setMessageReaction, error: %1
 handleCommand.executeCommand=[ %1 ] Command used: %2 by user: %3 at thread: %4 | Args included: %5 | Processing time: %6ms
 handleCommand.commandError=Having some unexpected error when using command %1, error: %2
